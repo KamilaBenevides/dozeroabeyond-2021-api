@@ -9,7 +9,7 @@ if (fs.existsSync("./firebase-service-account.json") === false) {
   );
 }
 
-const serviceAccount = require("./firebase-service-account.json");
+const serviceAccount = require("./do-zero-a-beyond-firebase-adminsdk-iak9o-4b86b03c36(1).json");
 
 const app = admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
